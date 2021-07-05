@@ -6,16 +6,16 @@ img_path = 'orig5.png' ;
 noisy_img = imread(img_path) ;
 
 % [img, noisy_img] = create_img(M, N, img_path) ;
-% edge_img = edge_det_img(noisy_img) ;
-% 
-% figure(1);
-% imshow(noisy_img./256);
-% 
-% figure(2);
-% imshow(edge_img);
-% 
-% figure(3);
-% imshow(edge(noisy_img, 'canny')) ;
+edge_img = edge_det_img(noisy_img) ;
+
+figure(1);
+imshow(noisy_img./256);
+
+figure(2);
+imshow(edge_img);
+
+figure(3);
+imshow(edge(noisy_img, 'canny')) ;
 
 vid_path = './sample_videos/syn_vid1.avi';
 output_path = 'syn1_out.avi';
