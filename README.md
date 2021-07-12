@@ -9,5 +9,5 @@ Here, we show the usage of Skellam Distribution for Edge Detection in Spatial Do
 ### Background Subtraction
 * **Natural Video** : Replace the vid_path in `pipeline.m` with the path of your video and the result will give two images - the first frame of the original video, and the background subtracted frame. The background subtracted video is created in the provided output_path
 * **Synthetic Video** : Specify the size of each frame M by N and the number of frames T, a synthetic video is created at the path specified by vid_path and the result will give two images - the first frame of the synthetic video, and the background subtracted frame. The background subtracted video is created in the provided output_path
-## Result
+## Results
 For results on some sample data, see [`CS754_Project_Report.pdf`](https://github.com/aadishjain2911/Skellam-Edge-Detector/blob/master/CS754_Project_Report.pdf)
